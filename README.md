@@ -1,159 +1,196 @@
-# Turborepo starter
+# 🛡️ TruthNet AI
 
-This Turborepo starter is maintained by the Turborepo core team.
+### Detect. Verify. Protect.
 
-## Using this example
+> An Autonomous Multi-Agent Intelligence Platform for Detecting and Combating Misinformation, Deepfakes, Fake News, and Voice-Cloning Scams.
 
-Run the following command:
+---
 
-```sh
-npx create-turbo@latest
+## 🌍 The Problem
+
+In today's digital world, misinformation spreads faster than facts.
+
+The rise of:
+
+* Deepfake videos
+* AI-generated images
+* Voice cloning scams
+* Fake news articles
+* Manipulated media
+
+has created a serious trust crisis.
+
+Existing solutions mainly focus on detection, leaving users with the difficult task of verifying information, assessing risk, and understanding the impact themselves.
+
+---
+
+## 💡 Our Solution
+
+TruthNet AI is a next-generation autonomous investigation platform that goes beyond simple detection.
+
+Instead of just telling users that content may be suspicious, TruthNet AI performs a complete investigation using a network of intelligent AI agents.
+
+The platform:
+
+✅ Detects suspicious content
+
+✅ Verifies authenticity
+
+✅ Calculates risk levels
+
+✅ Tracks misinformation spread
+
+✅ Generates investigation reports
+
+✅ Explains every decision transparently
+
+---
+
+## 🤖 How It Works
+
+```text
+Upload Content
+      ↓
+Detection Agent
+      ↓
+Verification Agent
+      ↓
+Risk Assessment Agent
+      ↓
+Response Agent
+      ↓
+Monitoring Agent
+      ↓
+Investigation Report
 ```
 
-## What's inside?
+Users can upload:
 
-This Turborepo includes the following packages/apps:
+* Text
+* Images
+* Videos
+* Audio
+* URLs
 
-### Apps and Packages
+and receive a complete threat assessment.
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+---
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+## 🧠 Multi-Agent Intelligence System
 
-### Utilities
+### Detection Agent
 
-This Turborepo has some additional tools already setup for you:
+Identifies deepfakes, manipulated media, synthetic audio, and misinformation.
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+### Verification Agent
 
-### Build
+Cross-checks claims, validates sources, and gathers supporting evidence.
 
-To build all apps and packages, run the following command:
+### Risk Assessment Agent
 
-With [global `turbo`](https://turborepo.dev/docs/getting-started/installation#global-installation) installed (recommended):
+Calculates authenticity, threat, virality, and impact scores.
 
-```sh
-cd my-turborepo
-turbo build
-```
+### Response Agent
 
-Without global `turbo`, use your package manager:
+Generates fact-check reports, summaries, and recommendations.
 
-```sh
-cd my-turborepo
-npx turbo build
-npm dlx turbo build
-npm exec turbo build
-```
+### Monitoring Agent
 
-You can build a specific package by using a [filter](https://turborepo.dev/docs/crafting-your-repository/running-tasks#using-filters):
+Tracks the spread and influence of suspicious content.
 
-With [global `turbo`](https://turborepo.dev/docs/getting-started/installation#global-installation) installed:
+---
 
-```sh
-turbo build --filter=docs
-```
+## ✨ Key Features
 
-Without global `turbo`:
+* 🎭 Deepfake Detection
+* 🎙️ Voice Clone Detection
+* 📱 WhatsApp Forward Analyzer
+* 📰 Fake News Verification
+* 🧠 Trust Score Engine
+* 📊 Real-Time Threat Dashboard
+* 📄 Investigation Report Generator
+* 🔍 Explainable AI Panel
+* 🤖 Multi-Agent Collaboration System
 
-```sh
-npx turbo build --filter=docs
-npm exec turbo build --filter=docs
-npm exec turbo build --filter=docs
-```
+---
 
-### Develop
+## 🚀 Innovation
 
-To develop all apps and packages, run the following command:
+What makes TruthNet AI different?
 
-With [global `turbo`](https://turborepo.dev/docs/getting-started/installation#global-installation) installed (recommended):
+Most existing solutions stop at detection.
 
-```sh
-cd my-turborepo
-turbo dev
-```
+TruthNet AI introduces:
 
-Without global `turbo`, use your package manager:
+* Autonomous AI Agents
+* End-to-End Investigation Workflow
+* Explainable Decision Making
+* Real-Time Threat Analysis
+* Scalable Intelligence Architecture
 
-```sh
-cd my-turborepo
-npx turbo dev
-npm exec turbo dev
-npm exec turbo dev
-```
+This transforms misinformation detection into a complete digital trust system.
 
-You can develop a specific package by using a [filter](https://turborepo.dev/docs/crafting-your-repository/running-tasks#using-filters):
+---
 
-With [global `turbo`](https://turborepo.dev/docs/getting-started/installation#global-installation) installed:
+## 🏗️ Technology Stack
 
-```sh
-turbo dev --filter=web
-```
+### Frontend
 
-Without global `turbo`:
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* ShadCN UI
+* Framer Motion
 
-```sh
-npx turbo dev --filter=web
-npm exec turbo dev --filter=web
-npm exec turbo dev --filter=web
-```
+### Backend
 
-### Remote Caching
+* Node.js
+* Express
 
-> [!TIP]
-> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
+### Database
 
-Turborepo can use a technique known as [Remote Caching](https://turborepo.dev/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+* PostgreSQL
+* Prisma ORM
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup?utm_source=turborepo-examples), then enter the following commands:
+### AI & Agents
 
-With [global `turbo`](https://turborepo.dev/docs/getting-started/installation#global-installation) installed (recommended):
+* Gemini AI
+* LangChain
+* LangGraph
 
-```sh
-cd my-turborepo
-turbo login
-```
+### Deployment
 
-Without global `turbo`, use your package manager:
+* Vercel
 
-```sh
-cd my-turborepo
-npx turbo login
-npm exec turbo login
-npm exec turbo login
-```
+---
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+## 🌟 Impact
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+TruthNet AI can be used by:
 
-With [global `turbo`](https://turborepo.dev/docs/getting-started/installation#global-installation) installed:
+🏛 Government Organizations
 
-```sh
-turbo link
-```
+📰 Media Houses
 
-Without global `turbo`:
+🏫 Educational Institutions
 
-```sh
-npx turbo link
-npm exec turbo link
-npm exec turbo link
-```
+🏢 Enterprises
 
-## Useful Links
+👥 Citizens
 
-Learn more about the power of Turborepo:
+to identify misinformation before it causes harm.
 
-- [Tasks](https://turborepo.dev/docs/crafting-your-repository/running-tasks)
-- [Caching](https://turborepo.dev/docs/crafting-your-repository/caching)
-- [Remote Caching](https://turborepo.dev/docs/core-concepts/remote-caching)
-- [Filtering](https://turborepo.dev/docs/crafting-your-repository/running-tasks#using-filters)
-- [Configuration Options](https://turborepo.dev/docs/reference/configuration)
-- [CLI Usage](https://turborepo.dev/docs/reference/command-line-reference)
+---
+
+## 📈 Future Vision
+
+Our vision is to build a global digital trust network where misinformation can be detected, verified, and addressed automatically before it spreads at scale.
+
+---
+
+# Detect. Verify. Protect.
+
+TruthNet AI is not just a misinformation detector.
+
+It is an autonomous intelligence system built to protect digital trust in the AI era.
