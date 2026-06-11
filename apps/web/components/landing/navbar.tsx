@@ -48,19 +48,34 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center gap-3">
-          <Link
-            href="/sign-in"
-            className="text-sm text-white/60 hover:text-white transition-colors px-4 py-2"
-          >
-            Sign in
-          </Link>
-          <Link
-            href="/sign-up"
-            className="text-sm bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition-colors font-medium"
-          >
-            Get started
-          </Link>
-        </div>
+  <Link
+    href="/sign-in"
+    style={{ fontSize: 13, color: "rgba(255,255,255,0.5)", padding: "8px 16px", textDecoration: "none" }}
+  >
+    Sign in
+  </Link>
+  <Link
+    href="/dashboard"
+    style={{
+      fontSize: 13, background: "rgba(255,255,255,0.06)",
+      border: "0.5px solid rgba(255,255,255,0.1)",
+      color: "#fff", padding: "8px 16px", borderRadius: 8,
+      textDecoration: "none", fontWeight: 500
+    }}
+  >
+    Dashboard
+  </Link>
+  <Link
+    href="/sign-up"
+    style={{
+      fontSize: 13, background: "#3b82f6",
+      color: "#fff", padding: "8px 16px", borderRadius: 8,
+      textDecoration: "none", fontWeight: 500
+    }}
+  >
+    Get started
+  </Link>
+</div>
       </div>
     </motion.nav>
   );

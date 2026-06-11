@@ -185,7 +185,19 @@ export function HeroSection() {
           >
             See how it works
           </Link>
-        </motion.div>
+          <Link
+          href="/dashboard"
+          style={{
+            display: "inline-flex", alignItems: "center", gap: 8,
+            background: "rgba(255,255,255,0.05)",
+            border: "0.5px solid rgba(255,255,255,0.1)",
+            color: "rgba(255,255,255,0.7)", padding: "12px 26px",
+            borderRadius: 12, fontWeight: 500, fontSize: 14, textDecoration: "none",
+            }}
+            >
+              Go to Dashboard
+              </Link>
+              </motion.div>
 
         {/* Trusted by line */}
         <motion.p
